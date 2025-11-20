@@ -26,17 +26,17 @@ def build_payload() -> Dict[str, Any]:
     Adjust values as needed.
     """
     # --- Common (Facts) ---
-    CI_g = 275.0
-    CFP_g = 12345.0
-    PUE = 1.7
+    CI_g = 0.0 #Provided by CIM
+    CFP_g = 0.0 #Provided by CIM
+    PUE = 1.7 #Default 1.7 (if not calculated), provided by CIM
     Site = "SLICES-GR-UTH"
     Energy_wh_common = 14.0
     StartExecTime = iso_now()
     time.sleep(0.01)  # simulate exec time
-    StopExecTime = iso_now()
-    Status = "done"
+    StopExecTime = iso_now() #Provided by Custom Energy Extractor
+    Status = "done" #Provided by Custom Energy Extractor  
     Owner = "vo:network-ops"
-    ExecUnitID = "IoT-session-0002"
+    ExecUnitID = "IoT-session-0002" 
     ExecUnitFinished = 1
 
     # --- detail_network ---

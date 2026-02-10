@@ -1,0 +1,13 @@
+{
+  "exec_unit_id": "exec_1766146299",
+  "src_node": "node06",
+  "dst_node": "node03",
+  "start_time": "2025-12-19T12:11:39.353185Z",
+  "end_time": "2025-12-19T12:12:40.960953Z",
+  "duration_s": 61.607768,
+  "data_amount_mb": 15.0,
+  "bandwidth_req_mbps": 2.4,
+  "throughput_mbps": 1.93,
+  "jitter_ms": 1.896,
+  "packet_loss_percent": 20.0
+}

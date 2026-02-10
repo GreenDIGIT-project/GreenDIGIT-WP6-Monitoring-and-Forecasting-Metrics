@@ -1,0 +1,19 @@
+{
+  "exec_unit_id": "exec_1766233196",
+  "src_node": "node01",
+  "dst_node": "node05",
+  "start_time": "2025-12-20T12:19:56.752997Z",
+  "end_time": "2025-12-20T12:31:50.019422Z",
+  "duration_s": 713.266425,
+  "data_amount_mb": 200.0,
+  "bandwidth_req_mbps": 2.4,
+  "throughput_mbps": 1.81,
+  "jitter_ms": 2.513,
+  "packet_loss_percent": 24.0,
+  "energy_results": {
+    "total_tx_Wh": 0.09019632753072596,
+    "total_rx_Wh": 0.03689507514680431,
+    "total_energy_Wh": 0.12709140267753027,
+    "MB": 165.928129
+  }
+}

@@ -1,0 +1,5 @@
+nohup: ignoring input
+Traceback (most recent call last):
+  File "/home/greendigit/app/greendigit-l3-iot-uth-deployment/core/drl/controller.py", line 11, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'

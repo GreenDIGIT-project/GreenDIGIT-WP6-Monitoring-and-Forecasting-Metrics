@@ -1,0 +1,12 @@
+workloads:
+  # --- LINK 1 (node01 <-> node05) ---
+  - destination_node: node05
+    start_time: "2025-12-19 15:08:40"
+    bandwidth: "2.4M"
+    data_amount: "200M"
+
+  
+#  - destination_node: node03
+#    start_time: "2025-12-19 14:08:50"
+#    bandwidth: "2.4M"
+#    data_amount: "20M"

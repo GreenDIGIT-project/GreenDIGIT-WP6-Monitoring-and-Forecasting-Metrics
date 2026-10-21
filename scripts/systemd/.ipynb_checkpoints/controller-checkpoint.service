@@ -1,0 +1,23 @@
+[Unit]
+Description=IoT Controller Service
+After=network.target
+
+[Service]
+# Working Directory
+WorkingDirectory=/home/greendigit/app/greendigit-l3-iot-uth-deployment/core/drl
+
+# Command to run (Python interpreter + Full path to script)
+ExecStart=/home/greendigit/app/venv/bin/python3 -u /home/greendigit/app/greendigit-l3-iot-uth-deployment/core/drl/controller.py
+
+# User to run as
+User=root
+
+# Path to the .env file
+EnvironmentFile=/home/greendigit/app/greendigit-l3-iot-uth-deployment/core/drl/.env
+
+# Restart settings
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

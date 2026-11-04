@@ -1,0 +1,11 @@
+[Unit]
+Description=Prometheus PushGateway
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/opt/pushgateway/pushgateway --web.listen-address=:9091
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

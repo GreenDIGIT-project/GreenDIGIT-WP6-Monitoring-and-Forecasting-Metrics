@@ -1,0 +1,23 @@
+ssh_user: "pi"
+ssh_key_path: "/home/greendigit/app/.ssh/ilbekas_rsa"
+nodes:
+  node01: "10.64.44.70"
+  node02: "10.64.44.71"
+  node03: "10.64.44.72"
+  node04: "10.64.44.73"
+  node05: "10.64.44.74"
+  node06: "10.64.44.75"
+  node07: "10.64.44.190"
+  node08: "10.64.44.191"
+  node09: "10.64.44.192"
+  node10: "10.64.44.193"
+  node11: "10.64.44.194"
+  node12: "10.64.44.195"
+  
+links:
+  link1: ["node01", "node05"]
+  link2: ["node03", "node06"]
+  link3: ["node02", "node04"]
+  link4: ["node07", "node08"]
+  link5: ["node09", "node12"]
+  link6: ["node10", "node11"]
